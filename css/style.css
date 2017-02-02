@@ -1,0 +1,19 @@
+.page-head {
+  margin: auto;
+  text-align: center;
+}
+#movie-list tr td{
+  border: 1px solid #666;
+}
+
+#list{
+  width: 50%;
+  margin: auto;
+  margin-top: 20px;
+}
+ul {
+  list-style: none;
+}
+.table-section {
+  text-align: center;
+}

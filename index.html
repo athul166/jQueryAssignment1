@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Movie Search</title>
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/style.css">
+  <!-- Mobile viewport optimized -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+
+</head>
+<body>
+      <div class="container main">
+          <div class="container page-head">
+            <nav class="navbar navbar-inverse navbar-light">
+							<h1 class="navbar-brand">MOVIE SEARCH</h1>
+						</nav>
+            <input type="text" id="title" placeholder="Enter Title" required="true"></input>
+            <button type="submit" id='search-button' name="button">Search</button>
+          </div>
+          <div class="container table-section">
+              <div class="row" id="list">
+                    <table class="table table-responsive table-striped" id="movie-list">
+                    </table>
+                  </div>
+                      <ul id='movie-details'>
+
+                      </ul>
+          </div>
+      </div>
+      <script src="js/jquery-3.1.1.js"></script>
+      <script src="js/main.js"></script>
+</body>
+</html>
